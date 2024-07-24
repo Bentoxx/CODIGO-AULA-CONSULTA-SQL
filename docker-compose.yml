@@ -1,0 +1,12 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - /Users/bentojosedesantananeto/Documents/Cubos-Academy/Back/Modulo-04/CODIGO-AULA-CONSULTA-SQL/postgresdata:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+volumes:
+  postgresdata:
+  
