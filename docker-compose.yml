@@ -6,7 +6,6 @@ services:
     volumes:
       - /Users/bentojosedesantananeto/Documents/Cubos-Academy/Back/Modulo-04/CODIGO-AULA-CONSULTA-SQL/postgresdata:/var/lib/postgresql/data
     ports:
-      - 5432:5432
+      - 5433:5432
 volumes:
   postgresdata:
-  
